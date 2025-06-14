@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiamondCut Login</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+
+<header class="header">
+  <a href="#" class="logo">
+    <img src="./image/Navbar/logobaru_1.png" alt="">
+  </a>
+    <!-- navbar -->
+      <nav class="navbar">
+        <a href="./home.html">HOME</a>
+        <a href="./cars.html">CARS</a>
+        <a href="./showroom.html">SHOWROOM</a>
+        <a href="./aboutus.html">ABOUT US</a>
+        <a href="./login.html">LOGIN</a>
+      </nav>
+        <div class="hamburger-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+  </header>
+
+<!-- login container -->
+  <div class="login-container">
+      <div class="login-container-wrapper">
+          <form id="loginForm" onsubmit="validateForm_login(event)" >
+              <h1>Login</h1>
+              <div class="input">
+                  <input type="text" placeholder="Username" id="usernameId_login"required>
+              </div>
+              <div class="input">
+                  <input type="password" placeholder="Password" id="passwordId_login" required>
+              </div>
+              <div class="terms-services">
+                <div class="checkbox-group">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="termsService_login" name="terms-services" value="terms">
+                        <label for="termsService_login">Agree Terms and Services</label>
+                    </div>
+                </div>
+            </div>
+
+              <div id="errorMessage_login" style="color: blue;"></div>
+              <button type="submit"  class="btn">Login</button>
+              <div class="submit-link">
+                  <p>Dont have an account? <a href="#" onclick="showRegisterForm()">Register</a></p>
+              </div>
+          </form>
+
+          <form id="registerForm" style="display: none;" onsubmit="validateForm_register(event)">
+              <h1>Register</h1>
+              <div class="input">
+                  <input type="email" placeholder="Email" id="emailId" required>
+              </div>
+              <div class="input">
+                  <input type="tel" placeholder="Phone Number" id="phoneId" required>
+              </div>
+              <div class="input">
+                  <input type="text" placeholder="Username" id="usernameId_regis" required>
+              </div>
+              <div class="input">
+                  <input type="password" placeholder="Password" id="passwordId_regis"required>
+              </div>
+              <div class="input">
+                <input type="password" placeholder="Confirm Password" id="confirmPasswordId" required>
+            </div>
+              <div class="terms-services">
+                <div class="checkbox-group">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="termsService_register" name="terms-services" value="terms">
+                        <label for="termsService_register">Agree Terms and Services</label>
+                    </div>
+                </div>
+            </div>
+              <div id="errorMessage_regis" style="color: blue;"></div>
+              <button type="submit"class="btn">Register</button>
+              <div class="submit-link">
+                  <p>Already have an account? <a href="#"onclick="showLoginForm()">Login</a></p>
+              </div>           
+          </form>
+      </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer-section">
+        <div class="footer-container">
+          <div class="logo-container">
+            <a href="./home.html"><img src="./image/Footer/logobaru_2.png" alt="DiamondCut Logo" /></a>
+          </div>
+          <div class="info-container">
+            <div class="info-heading">
+              <h4>Information</h4>
+            </div>
+            <ul class="info-list">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Cookie Settings</a></li>
+            </ul>
+          </div>
+          <div class="social-container">
+            <div class="social-heading">
+              <h4>Social Media</h4>
+            </div>
+            <div class="social-icons">
+              <a href="#"><img src="./image/icon/Facebook.svg" alt="Facebook" /></a>
+              <a href="#"><img src="./image/icon/Twitter.svg" alt="Twitter" /></a>
+              <a href="#"><img src="./image/icon/Instagram.svg" alt="Instagram" /></a>
+              <a href="#"><img src="./image/icon/Youtube.svg" alt="Youtube" /></a>
+            </div>
+          </div>
+          <div class="contact-container">
+            <div class="contact-heading">
+              <h4>Contact Number</h4>
+            </div>
+            <p>Be the first to contact us for upcoming sales</p>
+            <p>(021) 6632210.</p>
+            <p>(021) 6678491</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 DIAMONDCUT MOTORS • DESIGNED BY ALBERT TANDY HARISON</p>
+      </div>
+</footer>
+
+    <script src="./login.js"></script>
+
+</body>
+</html>
