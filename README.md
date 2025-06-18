@@ -36,3 +36,11 @@ Through this project, I learned:
 - Connect to a backend or API for real data
 - Enhance the Login page with authentication logic
 - Add animations and transitions for better UX
+
+## Screenshot
+[DiamondCut Motors-1.pdf](https://github.com/user-attachments/files/20797772/DiamondCut.Motors-1.pdf)
+[DiamondCut Cars-2.pdf](https://github.com/user-attachments/files/20797776/DiamondCut.Cars-2.pdf)
+[DiamondCut Showroom-6.pdf](https://github.com/user-attachments/files/20797780/DiamondCut.Showroom-6.pdf)
+[About DiamondCut-4.pdf](https://github.com/user-attachments/files/20797785/About.DiamondCut-4.pdf)
+[DiamondCut Login-5.pdf](https://github.com/user-attachments/files/20797799/DiamondCut.Login-5.pdf)
+
