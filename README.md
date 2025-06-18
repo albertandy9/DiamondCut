@@ -1,4 +1,4 @@
-![DiamondCut Motors-1](https://github.com/user-attachments/assets/d82d72ce-c792-4c06-9f25-8d9996149d49)# DiamondCut Motors 🚗
+# DiamondCut Motors 🚗
 
 This project is my final submission for the "Human Computer interaction" course. It involves designing and developing a website for a fictional automotive company called DiamondCut Motors. 
 The website was created from scratch using HTML, CSS, and JavaScript, and serves as a platform to showcase car listings, company information, and showroom navigation.
