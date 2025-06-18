@@ -38,3 +38,8 @@ Through this project, I learned:
 - Add animations and transitions for better UX
 
 ## Screenshot
+![Homepage](imagess/image1.jpg)
+![Cars Page](imagess/image2.jpg)
+![Showroom](imagess/image3.jpg)
+![About Us](imagess/image4.jpg)
+![Login Page](imagess/image5.jpg)
